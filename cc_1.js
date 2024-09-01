@@ -1,3 +1,5 @@
+// Task 1: Variables and Data Types
+
 // Declare variable employeeName using let and assign it the employee's name as a string
 let employeeName = 'Bob Henry';
 
@@ -17,3 +19,19 @@ console.log('employeeID type:', typeof employeeID);
 
 console.log('is Active:', isActive);
 console.log('isActive type:', typeof isActive);
+
+//Task 2: Compound Data Types
+
+// Declare an array to store a list of available products
+let products = ['Apple', 'Banana', 'Grapes'];
+
+//Declare an object productDetails using const with properties name, price, and inStock
+const productDetails = {
+    name: 'Apple',
+    price: 0.99,
+    instock: true
+};
+
+//Log the array and the object to the console
+console.log('Products:', products);
+console.log('Product Details', productDetails);
