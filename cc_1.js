@@ -20,18 +20,44 @@ console.log('employeeID type:', typeof employeeID);
 console.log('is Active:', isActive);
 console.log('isActive type:', typeof isActive);
 
-//Task 2: Compound Data Types
+// Task 2: Compound Data Types
 
 // Declare an array to store a list of available products
 let products = ['Apple', 'Banana', 'Grapes'];
 
-//Declare an object productDetails using const with properties name, price, and inStock
+// Declare an object productDetails using const with properties name, price, and inStock
 const productDetails = {
     name: 'Apple',
     price: 0.99,
     instock: true
 };
 
-//Log the array and the object to the console
+// Log the array and the object to the console
 console.log('Products:', products);
-console.log('Product Details', productDetails);
+console.log('Product Details:', productDetails);
+
+// Task 3: Assignment Operators
+
+// Declare variable accountBalance with a number to represent an intial balance and log intial balance
+let accountBalance = 10000;
+console.log('Inital Balance:', accountBalance);
+
+// Deposit $5000 into the account and log the new total balance
+accountBalance += 5000;
+console.log('Balance after $5000 deposit:', accountBalance);
+
+// Withdraw $7500 and log the new total balance
+accountBalance -= 7500;
+console.log('Balance after $7500 withdrawl:', accountBalance);
+
+// Apply 3 percent interest rate to the total account balance and log the new total balance
+accountBalance *= 1.03;
+console.log('Balance after earning 3 percent interest:', accountBalance);
+
+// Buy out Co-owners shares at half the total account balance and log the new total balance
+accountBalance /= 2;
+console.log('Balance after buying out Co-owner:', accountBalance);
+
+// Determine how much money would be left if dividends were evenly paid out the 10 shareholders and log the remaining balance
+accountBalance %= 10;
+console.log('Balance after paying out dividends to 10 shareholders:', accountBalance);
