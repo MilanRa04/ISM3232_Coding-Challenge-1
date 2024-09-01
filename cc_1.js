@@ -61,3 +61,28 @@ console.log('Balance after buying out Co-owner:', accountBalance);
 // Determine how much money would be left if dividends were evenly paid out the 10 shareholders and log the remaining balance
 accountBalance %= 10;
 console.log('Balance after paying out dividends to 10 shareholders:', accountBalance);
+
+
+// Task 4: Comparison Operators
+
+// Declare variables with numerical values to represent employees' scores
+let employeeScore1 = 97;
+let employeeScore2 = 85;
+
+// Check if employeeScore 1 is greater than employeeScore 2
+console.log('employeeScore1 > employeeScore2:', employeeScore1 > employeeScore2);
+
+// Check if employeeScore 1 is less than employeeScore 2
+console.log('employeeScore1 < employeeScore2:', employeeScore1 < employeeScore2);
+
+// Check if employeeScore 1 is greater than or equal to employeeScore 2
+console.log('employeeScore1 >= employeeScore2:', employeeScore1 >= employeeScore2);
+
+// Check if employeeScore 1 is less than or equal to employeeScore 2
+console.log('employeeScore1 <= employeeScore2:', employeeScore1 <= employeeScore2);
+
+// Check if employeeScore 1 is equal to employeeScore 2
+console.log('employeeScore1 === employeeScore2:', employeeScore1 === employeeScore2);
+
+// Check if employeeScore 1 is not equal to employeeScore 2
+console.log('employeeScore1 !== employeeScore2:', employeeScore1 !== employeeScore2);
