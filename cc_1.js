@@ -10,10 +10,10 @@ var isActive = true;
 // Log each variable's value and its type to the console.
 
 console.log('employeeName:', employeeName);
-console.log('Type of employeeName:', typeof employeeName);
+console.log('employeeName type:', typeof employeeName);
 
 console.log('employeeID:', employeeID);
-console.log('Type of employeeID:', typeof employeeID);
+console.log('employeeID type:', typeof employeeID);
 
 console.log('is Active:', isActive);
-console.log('Type of is Active:', typeof isActive);
+console.log('isActive type:', typeof isActive);
