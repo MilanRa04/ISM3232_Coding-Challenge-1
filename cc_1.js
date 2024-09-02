@@ -86,3 +86,25 @@ console.log('employeeScore1 === employeeScore2:', employeeScore1 === employeeSco
 
 // Check if employeeScore 1 is not equal to employeeScore 2
 console.log('employeeScore1 !== employeeScore2:', employeeScore1 !== employeeScore2);
+
+// Task 5: Logical Operators
+
+// Declare variables with boolean values
+let hasKeyCard = true;
+let hasPermission = false;
+
+// Does user have key card and permission to access secure area
+let canAccessSecureArea = hasKeyCard && hasPermission;
+console.log('Can access secure area:', canAccessSecureArea);
+
+// Does user have key card or permission to access unsecured area
+let canAccessUnsecureArea = hasKeyCard || hasPermission;
+console.log('Can access unsecured area', canAccessUnsecureArea);
+
+// User cannot access secured area
+let cannotAccessSecureArea = !(hasKeyCard && hasPermission);
+console.log('Cannot access secure area:', cannotAccessSecureArea);
+
+// User cannot access unsecured area
+let cannotAccessUnsecureArea = !(hasKeyCard || hasPermission);
+console.log('Cannot access unsecured area:', cannotAccessUnsecureArea);
